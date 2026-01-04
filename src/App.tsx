@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { generateCareerRoadmap, getAIRecommendations } from './services/geminiService';
-import type { CareerGuide, AIRecommendation, DocSection } from './types';
+import type { CareerGuide, AIRecommendation } from './types';
 import RoadmapVisual from './components/RoadmapVisual';
 import InterviewRoom from './components/InterviewRoom';
 
