@@ -1,0 +1,7 @@
+{
+  "name": "PathPulse - AI Career Navigator",
+  "description": "An advanced career planning platform that generates interactive roadmaps, comprehensive learning guides, and AI-driven mock interviews using the Gemini API.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
