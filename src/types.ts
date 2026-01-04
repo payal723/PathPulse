@@ -9,6 +9,8 @@ export interface RoadmapNode {
   importance: 'Critical' | 'Recommended' | 'Optional';
   category?: 'Technical' | 'Soft Skill' | 'Tooling';
   resources: { name: string; url: string; type: 'Video' | 'Article' | 'Course' }[];
+  salaryImpact: 'Low' | 'Medium' | 'High';        // ← add this
+  projectIdea: string;  
 }
 
 export interface DocSection {
